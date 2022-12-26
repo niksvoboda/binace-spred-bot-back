@@ -16,7 +16,7 @@ const getBybit = () =>{
     
         bybitBTC = fromBybit.result.list[0].price
   
-        console.log(bybitBTC)
+        //console.log(bybitBTC)
         })
 }
 
