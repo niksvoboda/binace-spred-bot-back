@@ -22,7 +22,7 @@ const getBybit = () =>{
 
 const getBinance = () =>{
     request(
-        'https://api.binance.com/api/v3/avgPrice?symbol=BTCUSDT',
+        'https://api1.binance.com/api/v3/avgPrice?symbol=BTCUSDT',
         (err, response, body) => {
         if (err) return res.status(500).send({ message: err })
         const fromBinance = JSON.parse(body);
